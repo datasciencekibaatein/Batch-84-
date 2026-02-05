@@ -18,7 +18,7 @@ print(res)
 '''
 
 
-
+'''
 lst = [4,2,5,6,2,6]
 s = 0
 for n in lst:
@@ -26,3 +26,33 @@ for n in lst:
     s = s + n
     
 print(s)
+'''
+
+#While loop
+'''
+
+i = 0
+while i<6:
+    print("hello ",i)
+    i = i + 1
+'''
+
+
+# break
+'''
+for i in range(1,5):
+    if i == 3:
+        break
+    print(i)
+'''
+  
+  
+'''
+for i in range(1,8):
+    if i == 5:
+        continue
+    print(i)
+'''  
+    
+    
+    
