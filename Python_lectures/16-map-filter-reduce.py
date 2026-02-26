@@ -4,11 +4,11 @@ lst = [3,4,5,2,5,6]
 def sqr(n):
     return n**2
 
-print(list(map(sqr,lst)))
+# print(list(map(sqr,lst)))
 
 #map(function,iterable)
 
-print(list(map(lambda x:x+2,lst)))
+# print(list(map(lambda x:x+2,lst)))
 
 
 #Filter function
@@ -16,10 +16,10 @@ print(list(map(lambda x:x+2,lst)))
 def grtr(n):
     return n>3
 
-print(list(filter(grtr,lst)))
+# print(list(filter(grtr,lst)))
 
 
-print(list(filter(lambda x:x>3,lst)))
+# print(list(filter(lambda x:x>3,lst)))
 
 
 
@@ -30,7 +30,7 @@ total = 0
 for n in nums:
     total+=n
 
-print(total)
+# print(total)
 
 
 result = reduce(lambda x,y:x+y,nums)
